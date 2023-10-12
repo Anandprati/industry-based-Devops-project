@@ -107,7 +107,11 @@ $ kubectl get secret loki-grafana -o go-template='{{range $k,$v := .data}}{{prin
 ![Screenshot 2023-10-11 225947](https://github.com/Anandprati/industry-based-Devops-project/assets/94226733/ba9e062e-74a4-46d1-b8ca-e335f8443632)
 
 
+**Clean up:**
+$ helm delete loki $ kubectl delete deploy loki-medium-logs
 
+(https://grafana.com/grafana/dashboards/15141-kubernetes-service-logs/ )
+(https://grafana.com/grafana/dashboards/315-kubernetes-cluster-monitoring-via-prometheus/)
 
 
 
